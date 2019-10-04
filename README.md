@@ -11,16 +11,16 @@ My college LAN has blacklisted downloads from torrents. So modern problems requi
 
 3) As colab enables users to use linux commands in Jupyter notebooks just by placing '!' before any command.
 
-4)Install transmission-cli using the command:
+4) Install transmission-cli using the command:
 
-```
-!apt-get install transmission-cli
-```
-or
-```
-import os
-os.system('apt-get install transmission-cli')
-```
+  ``` 
+  !apt-get install transmission-cli
+  ```
+  or
+  ```
+  import os
+  os.system('apt-get install transmission-cli')
+  ```
 
 
 
