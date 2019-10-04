@@ -23,7 +23,7 @@ My college LAN has blacklisted downloads from torrents. So modern problems requi
   ```
 5) Now just download the file using the command:
   ```
-  !transmission-cli -w '/content/drive/My Drive/{FolderPath}' {TorrPath}.torrent
+  !transmission-cli -w {FolderPath} {TorrPath}
   ```
   or
   ```
