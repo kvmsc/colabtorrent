@@ -27,9 +27,9 @@ My college LAN has blacklisted downloads from torrents. So modern problems requi
   ```
   or
   ```
-  os.system(f"transmission-cli -w '/content/drive/My Drive/{FolderPath}' {TorrPath}.torrent")
+  os.system(f"transmission-cli -w {FolderPath} {TorrPath}")
   ```
-  where FolderPath is the name of Destination folder and TorrPath is the name of torrent file
+  where FolderPath is the Destination folder and TorrPath is the path of torrent file.
   
   DONE!! Now you have your file saved in your Google Drive.
   
