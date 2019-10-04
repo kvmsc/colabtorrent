@@ -21,9 +21,20 @@ My college LAN has blacklisted downloads from torrents. So modern problems requi
   import os
   os.system('apt-get install transmission-cli')
   ```
-
-
-
-
+5) Now just download the file using the command:
+  ```
+  !transmission-cli -w '/content/drive/My Drive/{FolderPath}' {TorrPath}.torrent
+  ```
+  or
+  ```
+  os.system(f"transmission-cli -w '/content/drive/My Drive/{FolderPath}' {TorrPath}.torrent")
+  ```
+  where FolderPath is the name of Destination folder and TorrPath is the name of torrent file
+  
+  DONE!! Now you have your file saved in your Google Drive.
+  
+  This can be used to download datasets from torrents and save it on your drive for Model Training purposes.
+  The extention to this hack is to build an actual BitTorrent client using Python and asyncio. COMING SOON.
+  You can check the IPython Notebook for Code.
 
 NOTE: This is for educational purposes only. There is no intention to eploit free resources provided by COLAB.
